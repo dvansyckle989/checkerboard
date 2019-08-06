@@ -2,20 +2,23 @@
     background-color: tan;
     width: 800px;
     height: 800px;
+    display: flex;
+    flex-direction: column;
   }
-
-  .row{
-      width: 100px;
-      height:100px
+  ​
+  .row {
+    display: flex;
+    flex: 1;
   }
-
-  .space{
-      width: 12.5%
-      height: 12.5%
+  ​
+  .space {
+    flex: 1;
   }
-
-.red{}
-
-.black{}
-
- 
+  ​
+  .red {
+    background-color: red;
+  }
+  ​
+  .black {
+    background-color: black;
+  }
