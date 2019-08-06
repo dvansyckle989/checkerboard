@@ -4,6 +4,7 @@
     height: 800px;
     display: flex;
     flex-direction: column;
+    border: 15px solid tan;
   }
   ​
   .row {
